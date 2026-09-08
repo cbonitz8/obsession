@@ -168,6 +168,10 @@ obsidian vault="X" append path="<session>.md" content="## <new heading>\n\n<cont
 - [ ] Confirm status lines match what was actually accomplished, not what was planned
 - [ ] Check off stale checkboxes across all active projects (`tasks todo verbose`); set plan `status: completed` when all steps are done
 - [ ] Catch stale claims: "needs testing" when tests passed, "in progress" when done, phases listed as upcoming that are finished
+- [ ] **Boarded features current?** If this session changed ticket status or gates for a feature
+  that has a progress board (`<project>/Boards/<feature-slug>.html`) and the board wasn't
+  refreshed in-turn, refresh it now per snkit's `sn-board` skill (skip silently if snkit isn't
+  installed or the feature has no board)
 
 ### 2. Session log — **curate, don't compose**
 
